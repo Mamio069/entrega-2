@@ -1,0 +1,57 @@
+@import 'global';
+@import 'images';
+@import 'variables';
+@import 'mixins';
+
+
+body {
+    background-color: $primary-color;
+  
+    .autoaldia {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: $secondary-color;
+    }
+  
+    .navbar {
+      flex-grow: 1; 
+      display: flex;
+      justify-content: center;
+    }
+    
+  
+    .volver {
+      width: 150px;
+      margin-top: 12px;
+      margin-left: 15px;
+    }
+  
+
+    .inputsGrid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 1rem;
+    }
+  
+    .form-button {
+        @include form-button;
+    }
+  
+    .buttonContact {
+      @include button-contact;
+      position: absolute;
+      right: 1rem;
+      top: 2rem;
+     
+    }
+  
+    .pointer {
+      cursor: pointer;
+    }
+  }
+
+  
+  

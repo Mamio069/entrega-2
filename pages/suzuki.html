@@ -9,32 +9,71 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- banner principal -->
     <header>
-        <div class="autoaldia">
-          <a href="../index.html">
-            
-            <img
-              src="../img/logo.webp"
-              alt="Auto al Día"
-              class="logo"
-            />
-          </a>
-          <nav>
-            <ul>
-              <li><a href="../index.html">HOME</a></li>
-              <li><a href="../pages/ford.html">FORD</a></li>
-              <li><a href="../pages/chevrolet.html">CHEVROLET</a></li>
-              <li><a href="../pages/suzuki.html">SUZUKI</a></li>
-              <li><a href="../pages/toyota.html">TOYOTA</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <div class="autoaldia">
+        
+        <a href="index.html">
+          
+          <img
+            src="../img/logo.webp"
+            alt="Auto al Día"
+            class="logo"
+          />
+        </a>
+
+        
+        <nav class="navbar navbar-expand-md navbar-dark px-3">
+          
+          <div class="container-fluid">
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+              aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        
+            <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+              <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./ford.html">FORD</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./chevrolet.html">CHEVROLET</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./suzuki.html">SUZUKI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./toyota.html">TOYOTA</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="./contacto.html">
+                    <button class="btn btn-primary pointer ms-3">
+                      <i class="bi bi-envelope-fill"></i> Contáctenos
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        
+         
+          
+          </div>
+        </nav>
+        
+      </div>
+    </header>
 <!-- contenido principal -->
     <main>
         

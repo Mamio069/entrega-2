@@ -1,0 +1,12 @@
+
+@mixin form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  @mixin button-contact {
+    display: flex;
+    justify-content: flex-end;
+     margin-top: -5rem;
+  }

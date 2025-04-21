@@ -1,0 +1,68 @@
+@import 'variables';
+
+
+header {
+    align-items: left;
+    font-family: $font-principal;
+  }
+
+  main {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    h1 {
+      text-align: center;
+      color: $color-h1;
+      letter-spacing: 5px;
+      font-family: "Montserrat", sans-serif;
+      background-color: #b00020;
+    }
+
+    p {
+      font-family: "Montserrat", sans-serif;
+      text-decoration: double;
+      text-align: center;
+    }
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+
+      li {
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 630px) {
+      ul {
+        display: block;
+        font-size: 14px;
+        margin-top: 10px;
+
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1rem;
+  }
